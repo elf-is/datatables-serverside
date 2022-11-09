@@ -1,0 +1,50 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+DataTablesAPI/[Dd]ebug/
+DataTablesAPI/[Dd]ebugPublic/
+DataTablesAPI/[Rr]elease/
+DataTablesAPI/[Rr]eleases/
+DataTablesAPI/x64/
+DataTablesAPI/x86/
+DataTablesAPI/build/
+DataTablesAPI/bld/
+DataTablesAPI/[Bb]in/
+DataTablesAPI/[Oo]bj/
+DataTablesAPI/[Oo]ut/
+DataTablesAPI/msbuild.log
+DataTablesAPI/msbuild.err
+DataTablesAPI/msbuild.wrn
+
+
+DataTablesFront/dist/
+DataTablesFront/bazel-out
+DataTablesFront/integration/bazel/bazel-*
+DataTablesFront/*.log
+DataTablesFront/node_modules
+
+
+# Ignore npm/yarn debug log
+DataTablesFront/npm-debug.log
+DataTablesFront/yarn-error.log
+
+# build-analytics
+.build-analytics
+
