@@ -39,6 +39,13 @@ DataTablesFront/bazel-out
 DataTablesFront/integration/bazel/bazel-*
 DataTablesFront/*.log
 DataTablesFront/node_modules
+DataTablesFront/.angular/cache
+DataTablesFront/.sass-cache/
+DataTablesFront/connect.lock
+DataTablesFront/coverage
+DataTablesFront/libpeerconnection.log
+DataTablesFront/testem.log
+DataTablesFront/typings
 
 
 # Ignore npm/yarn debug log
