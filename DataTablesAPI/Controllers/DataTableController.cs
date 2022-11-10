@@ -12,7 +12,7 @@ public class DataTableController : ControllerBase
     public ActionResult GetDataTableData([FromBody] DatatableRequest request,
         [FromServices] DataTableService<Customer> service)
     {
-        var model = service.GetDataTable();
+        var model = service.GetData();
         var response = service.GetDatatableObject(request, model);
         return Ok(response);
     }
