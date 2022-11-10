@@ -1,0 +1,33 @@
+<table datatable [dtOptions]="dtOptions" class="row-border hover">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Phone</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Country</th>
+    <th>Credit Limit</th>
+  </tr>
+  </thead>
+  <tbody *ngIf="customers?.length != 0">
+  <tr *ngFor="let customer of customers">
+    <td>{{ customer.customerNumber }}</td>
+    <td>{{ customer.customerName }}</td>
+    <td>{{ customer.contactFirstName }}</td>
+    <td>{{ customer.contactLastName }}</td>
+    <td>{{ customer.phone }}</td>
+    <td>{{ customer.city }}</td>
+    <td>{{ customer.state }}</td>
+    <td>{{ customer.country }}</td>
+    <td>{{ customer.creditLimit }}</td>
+  </tr>
+  </tbody>
+  <tbody *ngIf="customers?.length == 0">
+  <tr>
+    <td colspan="3" class="no-data-available">No data!</td>
+  </tr>
+  </tbody>
+</table>
